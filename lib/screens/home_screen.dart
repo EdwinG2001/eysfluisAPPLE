@@ -35,6 +35,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.indigo.shade800,
         title: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
