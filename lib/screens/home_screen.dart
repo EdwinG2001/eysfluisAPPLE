@@ -118,13 +118,13 @@ class _HomeScreenState extends State<HomeScreen> {
             label: 'Estado Civil',
           ),
           NavigationDestination(
-            icon: Icon(Icons.email_outlined),
-            selectedIcon: Icon(Icons.email),
+            icon: Icon(Icons.email_outlined, color: Colors.teal),
+            selectedIcon: Icon(Icons.email, color: Colors.teal),
             label: 'Correos',
           ),
           NavigationDestination(
-            icon: Icon(Icons.people_outline),
-            selectedIcon: Icon(Icons.people),
+            icon: Icon(Icons.people_outline, color: Colors.orange),
+            selectedIcon: Icon(Icons.people, color: Colors.orange),
             label: 'Sexo',
           ),
         ],
