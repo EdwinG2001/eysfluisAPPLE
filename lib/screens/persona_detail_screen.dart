@@ -302,8 +302,8 @@ class _PersonaDetailScreenState extends State<PersonaDetailScreen> {
                                 Chip(
                                   avatar: const Icon(Icons.wc, size: 16),
                                   label: Text(p.sexoNombre ?? 'Sin Sexo'),
-                                  backgroundColor:
-                                      theme.colorScheme.primaryContainer,
+                                  backgroundColor: Colors.blue.shade50,
+                                  side: BorderSide(color: Colors.blue.shade200),
                                   visualDensity: VisualDensity.compact,
                                 ),
                                 if (p.isCliente)
