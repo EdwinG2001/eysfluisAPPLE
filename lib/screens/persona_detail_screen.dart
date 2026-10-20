@@ -55,7 +55,7 @@ class _PersonaDetailScreenState extends State<PersonaDetailScreen> {
         builder: (context, setDialogState) => AlertDialog(
           title: const Row(
             children: [
-              Icon(Icons.add_circle, color: Colors.teal),
+              Icon(Icons.add_circle, color: Colors.indigo),
               SizedBox(width: 8),
               Text('Agregar Correo'),
             ],
