@@ -192,14 +192,14 @@ class _PersonaDetailScreenState extends State<PersonaDetailScreen> {
 
     if (_isLoading) {
       return Scaffold(
-        appBar: AppBar(title: const Text('Detalle de Persona')),
+        appBar: AppBar(title: const Text('Ficha de Persona')),
         body: const Center(child: CircularProgressIndicator()),
       );
     }
 
     if (_error != null || _detail == null) {
       return Scaffold(
-        appBar: AppBar(title: const Text('Detalle de Persona')),
+        appBar: AppBar(title: const Text('Ficha de Persona')),
         body: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
