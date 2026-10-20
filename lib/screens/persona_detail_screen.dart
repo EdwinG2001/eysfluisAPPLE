@@ -173,13 +173,16 @@ class _PersonaDetailScreenState extends State<PersonaDetailScreen> {
                 }
               } catch (e) {
                 if (mounted) {
-                  ScaffoldMessenger.of(context).showSnackBar(
-                    SnackBar(content: Text('Error: $e')),
-                  );
+                  ScaffoldMessenger.of(
+                    context,
+                  ).showSnackBar(SnackBar(content: Text('Error: $e')));
                 }
               }
             },
-            child: const Text('Eliminar', style: TextStyle(color: Colors.white)),
+            child: const Text(
+              'Eliminar',
+              style: TextStyle(color: Colors.white),
+            ),
           ),
         ],
       ),
@@ -192,14 +195,14 @@ class _PersonaDetailScreenState extends State<PersonaDetailScreen> {
 
     if (_isLoading) {
       return Scaffold(
-        appBar: AppBar(title: const Text('Ficha de Persona')),
+        appBar: AppBar(title: const Text('Perfil de Persona')),
         body: const Center(child: CircularProgressIndicator()),
       );
     }
 
     if (_error != null || _detail == null) {
       return Scaffold(
-        appBar: AppBar(title: const Text('Ficha de Persona')),
+        appBar: AppBar(title: const Text('Perfil de Persona')),
         body: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -305,8 +308,11 @@ class _PersonaDetailScreenState extends State<PersonaDetailScreen> {
                                 ),
                                 if (p.isCliente)
                                   const Chip(
-                                    avatar: Icon(Icons.verified_user,
-                                        size: 16, color: Colors.blue),
+                                    avatar: Icon(
+                                      Icons.verified_user,
+                                      size: 16,
+                                      color: Colors.blue,
+                                    ),
                                     label: Text(
                                       'eysfwis',
                                       style: TextStyle(color: Colors.blue),
@@ -420,10 +426,16 @@ class _PersonaDetailScreenState extends State<PersonaDetailScreen> {
                       ),
                       subtitle: Text(
                         'ID Correo: #${c.idcorreo}${c.fechaoptencion != null ? " • Fecha: ${c.fechaoptencion}" : ""}',
-                        style: TextStyle(fontSize: 12, color: Colors.grey.shade600),
+                        style: TextStyle(
+                          fontSize: 12,
+                          color: Colors.grey.shade600,
+                        ),
                       ),
                       trailing: IconButton(
-                        icon: const Icon(Icons.delete_outline, color: Colors.red),
+                        icon: const Icon(
+                          Icons.delete_outline,
+                          color: Colors.red,
+                        ),
                         onPressed: () => _confirmDeleteCorreo(c),
                       ),
                     ),
@@ -462,7 +474,10 @@ class _PersonaDetailScreenState extends State<PersonaDetailScreen> {
                       borderRadius: BorderRadius.circular(12),
                     ),
                     child: ListTile(
-                      leading: const Icon(Icons.location_on, color: Colors.blue),
+                      leading: const Icon(
+                        Icons.location_on,
+                        color: Colors.blue,
+                      ),
                       title: Text(dir),
                     ),
                   ),
