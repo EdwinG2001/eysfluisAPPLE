@@ -149,8 +149,8 @@ class _PersonaDetailScreenState extends State<PersonaDetailScreen> {
     showDialog(
       context: context,
       builder: (ctx) => AlertDialog(
-        title: const Text('Eliminar Correo'),
-        content: Text('¿Desea eliminar el correo ${correo.correo}?'),
+        title: const Text('Quitar Correo'),
+        content: Text('¿Desea quitar el correo ${correo.correo}?'),
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(ctx),
