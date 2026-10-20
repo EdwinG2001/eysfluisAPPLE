@@ -254,9 +254,9 @@ class _SexoScreenState extends State<SexoScreen> {
           Container(
             padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
             decoration: BoxDecoration(
-              color: theme.colorScheme.primaryContainer.withValues(alpha: 0.4),
+              color: Colors.teal.shade50,
               border: Border(
-                bottom: BorderSide(color: Colors.grey.shade300),
+                bottom: BorderSide(color: Colors.teal.shade200),
               ),
             ),
             child: Row(
