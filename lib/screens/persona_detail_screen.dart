@@ -204,7 +204,7 @@ class _PersonaDetailScreenState extends State<PersonaDetailScreen> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              const Icon(Icons.error_outline, size: 48, color: Colors.red),
+              const Icon(Icons.error_outline, size: 48, color: Colors.orange),
               const SizedBox(height: 12),
               Text(_error ?? 'No se pudo cargar la información'),
               const SizedBox(height: 16),
