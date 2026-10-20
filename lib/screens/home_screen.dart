@@ -40,7 +40,7 @@ class _HomeScreenState extends State<HomeScreen> {
           children: [
             Row(
               children: [
-                const Icon(Icons.storage, size: 20, color: Colors.amber),
+                const Icon(Icons.storage, size: 20, color: Colors.cyanAccent),
                 const SizedBox(width: 8),
                 const Text(
                   'EYSFLUIS APP',
