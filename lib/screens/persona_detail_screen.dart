@@ -392,7 +392,7 @@ class _PersonaDetailScreenState extends State<PersonaDetailScreen> {
                   TextButton.icon(
                     onPressed: _showAddCorreoDialog,
                     icon: const Icon(Icons.add, size: 18),
-                    label: const Text('Agregar'),
+                    label: const Text('Agregar correo'),
                   ),
                 ],
               ),
