@@ -405,7 +405,7 @@ class _PersonaDetailScreenState extends State<PersonaDetailScreen> {
                     padding: EdgeInsets.all(16.0),
                     child: Center(
                       child: Text(
-                        'No tiene correos registrados en la tabla correo.',
+                        'Aún no hay correos registrados para esta persona.',
                         style: TextStyle(color: Colors.grey),
                       ),
                     ),
