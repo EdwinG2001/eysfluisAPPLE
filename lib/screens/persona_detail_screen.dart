@@ -333,7 +333,7 @@ class _PersonaDetailScreenState extends State<PersonaDetailScreen> {
 
               // Información General
               Text(
-                'Datos Demográficos',
+                'Información General',
                 style: theme.textTheme.titleMedium?.copyWith(
                   fontWeight: FontWeight.bold,
                 ),
