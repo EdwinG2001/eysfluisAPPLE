@@ -30,7 +30,7 @@ class EysfluisApp extends StatelessWidget {
           backgroundColor: primaryBlue,
           foregroundColor: Colors.white,
           elevation: 2,
-          centerTitle: false,
+          centerTitle: true,
         ),
         navigationBarTheme: NavigationBarThemeData(
           indicatorColor: secondaryTeal.withValues(alpha: 0.2),
