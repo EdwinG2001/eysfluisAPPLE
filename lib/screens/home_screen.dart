@@ -41,7 +41,11 @@ class _HomeScreenState extends State<HomeScreen> {
           children: [
             Row(
               children: [
-                const Icon(Icons.storage, size: 20, color: Colors.lightBlueAccent),
+                const Icon(
+                  Icons.storage,
+                  size: 20,
+                  color: Colors.lightBlueAccent,
+                ),
                 const SizedBox(width: 8),
                 const Text(
                   'EYSFLUIS APP - BD',
@@ -61,12 +65,12 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         actions: [
           IconButton(
-            icon: const Icon(Icons.dns),
+            icon: const Icon(Icons.dns, color: Colors.white),
             tooltip: 'Configuración Servidor BD eysfwis',
             onPressed: () => ServerConfigDialog.show(context),
           ),
           IconButton(
-            icon: const Icon(Icons.info_outline),
+            icon: const Icon(Icons.info_outline, color: Colors.white),
             tooltip: 'Acerca de EYSFLUIS',
             onPressed: () {
               showAboutDialog(
@@ -94,10 +98,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
         ],
       ),
-      body: IndexedStack(
-        index: _currentIndex,
-        children: _pages,
-      ),
+      body: IndexedStack(index: _currentIndex, children: _pages),
       bottomNavigationBar: NavigationBar(
         backgroundColor: Colors.blueGrey.shade100,
         selectedIndex: _currentIndex,
