@@ -408,7 +408,7 @@ class _CorreoScreenState extends State<CorreoScreen> {
                   child: TextField(
                     controller: _searchCtrl,
                     decoration: InputDecoration(
-                      hintText: 'Buscar correo, persona, cédula...',
+                      hintText: 'Buscar correo o persona...',
                       prefixIcon: const Icon(Icons.search),
                       suffixIcon: _searchCtrl.text.isNotEmpty
                           ? IconButton(
