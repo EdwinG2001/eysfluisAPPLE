@@ -445,7 +445,7 @@ class _PersonaDetailScreenState extends State<PersonaDetailScreen> {
 
               // Sección: Direcciones (Tabla direccion)
               Text(
-                'Direcciones Domiciliarias (Tabla direccion)',
+                'Direcciones Domiciliarias',
                 style: theme.textTheme.titleMedium?.copyWith(
                   fontWeight: FontWeight.bold,
                 ),
