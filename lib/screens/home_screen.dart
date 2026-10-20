@@ -99,7 +99,7 @@ class _HomeScreenState extends State<HomeScreen> {
         children: _pages,
       ),
       bottomNavigationBar: NavigationBar(
-        backgroundColor: Colors.blueGrey.shade50,
+        backgroundColor: Colors.blueGrey.shade100,
         selectedIndex: _currentIndex,
         onDestinationSelected: (index) {
           setState(() {
