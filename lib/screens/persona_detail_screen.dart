@@ -460,7 +460,7 @@ class _PersonaDetailScreenState extends State<PersonaDetailScreen> {
                     padding: EdgeInsets.all(16.0),
                     child: Center(
                       child: Text(
-                        'No registra direcciones en la tabla direccion.',
+                        'No se registran direcciones para esta persona.',
                         style: TextStyle(color: Colors.grey),
                       ),
                     ),
