@@ -306,7 +306,7 @@ class _EstadoCivilScreenState extends State<EstadoCivilScreen> {
             child: TextField(
               controller: _searchCtrl,
               decoration: InputDecoration(
-                hintText: 'Buscar estado civil por nombre o ID...',
+                hintText: 'Buscar por nombre o ID...',
                 prefixIcon: const Icon(Icons.search),
                 suffixIcon: _searchCtrl.text.isNotEmpty
                     ? IconButton(
