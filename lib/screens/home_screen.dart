@@ -54,7 +54,7 @@ class _HomeScreenState extends State<HomeScreen> {
               ],
             ),
             Text(
-              'Sección activa: ${_titles[_currentIndex]}',
+              'Vista activa: ${_titles[_currentIndex]}',
               style: const TextStyle(
                 fontSize: 12,
                 fontWeight: FontWeight.w500,
