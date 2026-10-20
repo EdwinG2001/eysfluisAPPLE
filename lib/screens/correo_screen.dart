@@ -358,9 +358,9 @@ class _CorreoScreenState extends State<CorreoScreen> {
           Container(
             padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
             decoration: BoxDecoration(
-              color: Colors.teal.shade50,
+              color: Colors.indigo.shade50,
               border: Border(
-                bottom: BorderSide(color: Colors.teal.shade200),
+                bottom: BorderSide(color: Colors.indigo.shade200),
               ),
             ),
             child: Row(
