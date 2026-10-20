@@ -302,7 +302,7 @@ class _SexoScreenState extends State<SexoScreen> {
             child: TextField(
               controller: _searchCtrl,
               decoration: InputDecoration(
-                hintText: 'Buscar por nombre o ID...',
+                hintText: 'Buscar sexo por nombre o ID...',
                 prefixIcon: const Icon(Icons.search),
                 suffixIcon: _searchCtrl.text.isNotEmpty
                     ? IconButton(
