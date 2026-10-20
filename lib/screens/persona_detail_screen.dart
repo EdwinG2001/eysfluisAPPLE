@@ -264,7 +264,7 @@ class _PersonaDetailScreenState extends State<PersonaDetailScreen> {
                     children: [
                       CircleAvatar(
                         radius: 36,
-                        backgroundColor: theme.colorScheme.primary,
+                        backgroundColor: Colors.blue.shade700,
                         foregroundColor: Colors.white,
                         child: Text(
                           p.nombres.isNotEmpty
