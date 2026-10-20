@@ -436,6 +436,8 @@ class _SexoScreenState extends State<SexoScreen> {
       ),
       floatingActionButton: FloatingActionButton.extended(
         onPressed: () => _showAddEditDialog(),
+        backgroundColor: Colors.teal,
+        foregroundColor: Colors.white,
         icon: const Icon(Icons.add),
         label: const Text('Nuevo Sexo'),
       ),
