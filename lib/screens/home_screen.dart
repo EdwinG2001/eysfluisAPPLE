@@ -43,7 +43,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 const Icon(Icons.storage, size: 20, color: Colors.amber),
                 const SizedBox(width: 8),
                 const Text(
-                  'EYSFLUIS - EYSFWIS',
+                  'EYSFLUIS APP',
                   style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
                 ),
               ],
