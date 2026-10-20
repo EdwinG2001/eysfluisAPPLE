@@ -31,9 +31,11 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.indigo.shade800,
+        backgroundColor: Colors.indigo.shade900,
         title: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
@@ -42,7 +44,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 const Icon(Icons.storage, size: 20, color: Colors.cyanAccent),
                 const SizedBox(width: 8),
                 const Text(
-                  'EYSFLUIS APP',
+                  'EYSFLUIS APP - BD',
                   style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
                 ),
               ],
