@@ -41,7 +41,7 @@ class _HomeScreenState extends State<HomeScreen> {
           children: [
             Row(
               children: [
-                const Icon(Icons.storage, size: 20, color: Colors.cyanAccent),
+                const Icon(Icons.storage, size: 20, color: Colors.lightBlueAccent),
                 const SizedBox(width: 8),
                 const Text(
                   'EYSFLUIS APP - BD',
@@ -50,10 +50,11 @@ class _HomeScreenState extends State<HomeScreen> {
               ],
             ),
             Text(
-              'Vista actual: ${_titles[_currentIndex]}',
-              style: TextStyle(
+              'Sección activa: ${_titles[_currentIndex]}',
+              style: const TextStyle(
                 fontSize: 12,
-                color: theme.colorScheme.onPrimary.withValues(alpha: 0.8),
+                fontWeight: FontWeight.w500,
+                color: Colors.white70,
               ),
             ),
           ],
