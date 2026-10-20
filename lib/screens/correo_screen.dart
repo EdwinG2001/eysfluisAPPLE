@@ -585,17 +585,28 @@ class _CorreoScreenState extends State<CorreoScreen> {
                                               size: 20, color: Colors.grey),
                                           tooltip: 'Copiar correo',
                                           onPressed: () {
-                                            Clipboard.setData(
-                                              ClipboardData(text: item.correo),
-                                            );
-                                            ScaffoldMessenger.of(context)
-                                                .showSnackBar(
-                                              const SnackBar(
-                                                content: Text(
-                                                    'Correo copiado al portapapeles'),
-                                                duration: Duration(seconds: 1),
-                                              ),
-                                            );
+                                            try {
+                                              Clipboard.setData(
+                                                ClipboardData(text: item.correo),
+                                              );
+                                              ScaffoldMessenger.of(context)
+                                                  .showSnackBar(
+                                                const SnackBar(
+                                                  content: Text(
+                                                      'Correo copiado al portapapeles'),
+                                                  duration: Duration(seconds: 1),
+                                                ),
+                                              );
+                                            } catch (_) {
+                                              ScaffoldMessenger.of(context)
+                                                  .showSnackBar(
+                                                const SnackBar(
+                                                  content: Text(
+                                                      'No se pudo copiar el correo'),
+                                                  backgroundColor: Colors.red,
+                                                ),
+                                              );
+                                            }
                                           },
                                         ),
                                         IconButton(
