@@ -360,7 +360,7 @@ class _SexoScreenState extends State<SexoScreen> {
                                 Icon(Icons.search_off,
                                     size: 48, color: Colors.grey.shade400),
                                 const SizedBox(height: 8),
-                                const Text('No se encontraron registros de sexo'),
+                                const Text('No hay registros de sexo disponibles'),
                               ],
                             ),
                           )
