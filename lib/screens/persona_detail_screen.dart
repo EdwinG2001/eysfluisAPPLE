@@ -434,7 +434,7 @@ class _PersonaDetailScreenState extends State<PersonaDetailScreen> {
                       trailing: IconButton(
                         icon: const Icon(
                           Icons.delete_outline,
-                          color: Colors.red,
+                          color: Colors.redAccent,
                         ),
                         onPressed: () => _confirmDeleteCorreo(c),
                       ),
