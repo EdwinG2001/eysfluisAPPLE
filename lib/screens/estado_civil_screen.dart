@@ -259,9 +259,9 @@ class _EstadoCivilScreenState extends State<EstadoCivilScreen> {
           Container(
             padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
             decoration: BoxDecoration(
-              color: Colors.purple.shade50,
+              color: Colors.teal.shade50,
               border: Border(
-                bottom: BorderSide(color: Colors.purple.shade200),
+                bottom: BorderSide(color: Colors.teal.shade200),
               ),
             ),
             child: Row(
