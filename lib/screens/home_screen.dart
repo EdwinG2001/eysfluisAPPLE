@@ -31,11 +31,9 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final theme = Theme.of(context);
-
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.indigo.shade950,
+        backgroundColor: Colors.indigo.shade900,
         title: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
@@ -101,6 +99,7 @@ class _HomeScreenState extends State<HomeScreen> {
       body: IndexedStack(index: _currentIndex, children: _pages),
       bottomNavigationBar: NavigationBar(
         backgroundColor: Colors.grey.shade200,
+        labelBehavior: NavigationDestinationLabelBehavior.onlyShowSelected,
         selectedIndex: _currentIndex,
         onDestinationSelected: (index) {
           setState(() {
