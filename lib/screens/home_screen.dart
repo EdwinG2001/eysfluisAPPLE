@@ -50,7 +50,7 @@ class _HomeScreenState extends State<HomeScreen> {
               ],
             ),
             Text(
-              _titles[_currentIndex],
+              'Vista actual: ${_titles[_currentIndex]}',
               style: TextStyle(
                 fontSize: 12,
                 color: theme.colorScheme.onPrimary.withValues(alpha: 0.8),
