@@ -505,7 +505,7 @@ class _CorreoScreenState extends State<CorreoScreen> {
                                 Icon(Icons.mail_lock_outlined,
                                     size: 48, color: Colors.grey.shade400),
                                 const SizedBox(height: 8),
-                                const Text('No se encontraron correos registrados'),
+                                const Text('No hay correos registrados ahora'),
                               ],
                             ),
                           )
