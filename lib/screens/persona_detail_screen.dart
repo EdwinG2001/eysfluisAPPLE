@@ -100,7 +100,7 @@ class _PersonaDetailScreenState extends State<PersonaDetailScreen> {
             ),
             ElevatedButton(
               style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.teal,
+                backgroundColor: Colors.indigo,
                 foregroundColor: Colors.white,
               ),
               onPressed: isSaving
