@@ -382,10 +382,8 @@ class _SexoScreenState extends State<SexoScreen> {
                                   ),
                                   child: ListTile(
                                     leading: CircleAvatar(
-                                      backgroundColor:
-                                          theme.colorScheme.primaryContainer,
-                                      foregroundColor:
-                                          theme.colorScheme.onPrimaryContainer,
+                                      backgroundColor: Colors.teal.shade100,
+                                      foregroundColor: Colors.teal.shade900,
                                       child: Text(
                                         '#${item.idsexo}',
                                         style: const TextStyle(
