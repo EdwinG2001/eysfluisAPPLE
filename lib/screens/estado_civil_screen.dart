@@ -364,7 +364,7 @@ class _EstadoCivilScreenState extends State<EstadoCivilScreen> {
                                 Icon(Icons.search_off,
                                     size: 48, color: Colors.grey.shade400),
                                 const SizedBox(height: 8),
-                                const Text('No se encontraron estados civiles'),
+                                const Text('No hay estados civiles registrados'),
                               ],
                             ),
                           )
