@@ -436,7 +436,7 @@ class _EstadoCivilScreenState extends State<EstadoCivilScreen> {
         foregroundColor: Colors.white,
         onPressed: () => _showAddEditDialog(),
         icon: const Icon(Icons.add),
-        label: const Text('Nuevo Estado Civil'),
+        label: const Text('Agregar Estado Civil'),
       ),
     );
   }
