@@ -18,3 +18,7 @@ samples, guidance on mobile development, and a full API reference.
 
 Grupo Apple:
 San Lucas Arroyo Edwin Guillermo.
+Caisa Preciado Franklin Andres.
+Caicedo Zuñiga Dario Javier.
+Corozo Angulo Milena Jazmin.
+Cabezas Pruna Angelo Jair.
