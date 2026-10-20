@@ -108,13 +108,13 @@ class _HomeScreenState extends State<HomeScreen> {
         },
         destinations: const [
           NavigationDestination(
-            icon: Icon(Icons.person_outline),
-            selectedIcon: Icon(Icons.person),
+            icon: Icon(Icons.person_outline, color: Colors.indigo),
+            selectedIcon: Icon(Icons.person, color: Colors.indigo),
             label: 'Personas',
           ),
           NavigationDestination(
-            icon: Icon(Icons.favorite_outline),
-            selectedIcon: Icon(Icons.favorite),
+            icon: Icon(Icons.favorite_outline, color: Colors.pink),
+            selectedIcon: Icon(Icons.favorite, color: Colors.pink),
             label: 'Estado Civil',
           ),
           NavigationDestination(
